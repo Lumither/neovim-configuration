@@ -1,17 +1,19 @@
 local lang_servers = {
     -- rust
-    "rust_analyzer"
+    "rust_analyzer",
+
+    -- C++
+    "clangd",
+    "cmake"
 }
 
 return {
     {
-        "neovim/nvim-lspconfig"
-    },
-    {
-        "williamboman/mason-lspconfig.nvim"
-    },
-    {
         "williamboman/mason.nvim",
+        dependencies = {
+            "neovim/nvim-lspconfig",
+            "williamboman/mason-lspconfig.nvim"
+        },
         opts = {
             ensure_installed = {
 
