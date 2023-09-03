@@ -13,21 +13,21 @@ $ git clone https://github.com/Lumither/neovim-configuration.git ~/.config/nvim
 - use `alpha.nvim` for welcome screen
 
 ### Used language server:
-<center>
+<p align="center">
 
 | language | language server |
 | :------: | :-------------: |
 |   Rust   | `rust-analyzer` |
-|   C++    |     clangd      |
-|          |      cmake      |
+|   C++    |     `clangd`    |
+|          |     `cmake`     |
 
-</center>
+</p>
 
 ---
 
-<center>
+<p align="center">
 
 **This project is currently unstable and undergoing configuration. It is risky to use it in a production environment**
 
-</center>
+</p>
 
